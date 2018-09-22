@@ -9,7 +9,8 @@ def line(katz_deli)
       line_string << "#{counter}. #{customer} "
       counter += 1
     end
-      
+    return line_string
+  end
 end
 
 def take_a_number(katz_deli, new_customer)
