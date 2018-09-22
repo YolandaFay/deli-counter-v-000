@@ -6,11 +6,11 @@ def line(katz_deli)
     counter = 1 
     line_string = "The line is currently: "
     katz_deli.each do |customer| 
-      line_string << "#{counter}. #{customer} "
-      counter += 1
+        line_string << "#{counter}. #{customer} "
+        counter += 1
+      end
+      return line_string
     end
-    return line_string
-  end
 end
 
 def take_a_number(katz_deli, new_customer)
