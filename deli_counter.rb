@@ -20,6 +20,8 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts ""
   puts "Currently serving #{katz_deli[0]}."
   katz_deli.shift
 end
