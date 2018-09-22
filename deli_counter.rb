@@ -6,6 +6,7 @@ def line(katz_deli)
     line_string = "The line is currently: "
     katz_deli.each do |customer| 
       line_string << "#{counter}. #{customer} "
+      counter += 1
       
 end
 
