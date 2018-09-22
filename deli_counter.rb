@@ -5,6 +5,7 @@ def line(katz_deli)
     line_length = katz_deli.length
     line_string = "The line is currently: "
     katz_deli.each do |customer| 
+      line_string << "#{counter}. #{customer} "
       
 end
 
