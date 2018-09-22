@@ -3,6 +3,7 @@ def line(katz_deli)
     return "The line is currently empty."
   else 
     line_length = katz_deli.length
+    counter = 1
     line_string = "The line is currently: "
     katz_deli.each do |customer| 
       line_string << "#{counter}. #{customer} "
