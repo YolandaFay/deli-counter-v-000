@@ -9,7 +9,7 @@ def line(katz_deli)
         line_string << "#{counter}. #{customer} "
         counter += 1
       end
-      return line_string
+      puts line_string
     end
 end
 
