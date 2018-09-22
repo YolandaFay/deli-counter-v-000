@@ -4,9 +4,9 @@ def line(katz_deli)
   else 
     line_length = katz_deli.length
     counter = 1 
-    line_string = "The line is currently: "
+    line_string = "The line is currently:"
     katz_deli.each do |customer| 
-        line_string << "#{counter}. #{customer}"
+        line_string << " #{counter}. #{customer}"
         counter += 1
       end
       puts line_string
